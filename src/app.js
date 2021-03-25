@@ -35,7 +35,7 @@ app.use('/api',indexRouter)
 
 const server = http.createServer(app);
 
-server.listen(3000);
+server.listen(3001);
 
 server.on('listening',()=>{
         const addr = server.address();

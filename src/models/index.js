@@ -1,4 +1,3 @@
-'use strict';
 
 import { readdirSync } from 'fs';
 import { basename as _basename, join } from 'path';
